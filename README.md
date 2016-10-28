@@ -10,7 +10,7 @@ Quick and dirty `jasmine-starter` project
 - install dependencies
   - `$ npm install` (or if you are a yarner `yarn`)
 - run using specRunner
-  - `$ test`
+  - `$ test` or `$ num run test`
 - run using karma
   - `$ npm run test:karma`
 
