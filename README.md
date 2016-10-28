@@ -9,8 +9,8 @@ Quick and dirty `jasmine-starter` project
   - `$ git clone https://github.com/mikeerickson/jasmine-starter.git`
 - install dependencies
   - `$ npm install` (or if you are a yarner `yarn`)
-- run tests
-  - standard test `$ test`
+- run using specRunner
+  - `$ test`
 - run using karma
   - `$ npm run test:karma`
 
