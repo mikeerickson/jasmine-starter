@@ -1,0 +1,7 @@
+node_modules
+logs
+karma_html
+dist
+playground
+sandbox
+public/vendor

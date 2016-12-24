@@ -1,4 +1,4 @@
-describe('HelloWorld Spec', function () {
+describe('HelloWorld', function () {
 
   it('should pass', function () {
     expect(true).toBeTruthy();

@@ -1,5 +1,9 @@
 // Karma configuration
-// Generated on Thu Oct 27 2016 19:31:05 GMT-0700 (PDT)
+
+// Requiremeents
+// $ npm i -D jasmine jasmine-core jasmine-spec-reporter
+// $ npm i -D karma-jasmine karma-mocha-reporter karma-growl-reporter karma-nicer-reporter karma-spec-reporter
+// $ npm i -D karma-phantomjs-launcher phantomjs-prebuilt
 
 module.exports = function (config) {
   config.set({
@@ -35,7 +39,7 @@ module.exports = function (config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress','mocha','nicer','growl'],
+    reporters: ['nicer','growl'],
 
     // Optional Settings
     notifyReporter: {
